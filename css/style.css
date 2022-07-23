@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div{
+    width: 30%;
+    height: 50vh;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color:goldenrod ;
+    border-radius: 3px;
+}
+body button{
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+}
+button:hover{
+    opacity: 0.8;
+}
